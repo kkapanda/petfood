@@ -1,0 +1,75 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 29/10/2018 21:55
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-pet:before { content: "\f100"; }
+.flaticon-battery:before { content: "\f101"; }
+.flaticon-download:before { content: "\f102"; }
+.flaticon-locked-padlock:before { content: "\f103"; }
+.flaticon-speaker-filled-audio-tool:before { content: "\f104"; }
+.flaticon-star:before { content: "\f105"; }
+.flaticon-dog-paw:before { content: "\f106"; }
+.flaticon-microphone:before { content: "\f107"; }
+.flaticon-mac:before { content: "\f108"; }
+.flaticon-timer:before { content: "\f109"; }
+.flaticon-calendar-with-a-clock-time-tools:before { content: "\f10a"; }
+.flaticon-graph:before { content: "\f10b"; }
+.flaticon-hide-keyboard-button:before { content: "\f10c"; }
+.flaticon-wireless:before { content: "\f10d"; }
+.flaticon-camera-shutter:before { content: "\f10e"; }
+.flaticon-video-camera:before { content: "\f10f"; }
+.flaticon-4-3:before { content: "\f110"; }
+.flaticon-auto:before { content: "\f111"; }
+    
+    $font-Flaticon-pet: "\f100";
+    $font-Flaticon-battery: "\f101";
+    $font-Flaticon-download: "\f102";
+    $font-Flaticon-locked-padlock: "\f103";
+    $font-Flaticon-speaker-filled-audio-tool: "\f104";
+    $font-Flaticon-star: "\f105";
+    $font-Flaticon-dog-paw: "\f106";
+    $font-Flaticon-microphone: "\f107";
+    $font-Flaticon-mac: "\f108";
+    $font-Flaticon-timer: "\f109";
+    $font-Flaticon-calendar-with-a-clock-time-tools: "\f10a";
+    $font-Flaticon-graph: "\f10b";
+    $font-Flaticon-hide-keyboard-button: "\f10c";
+    $font-Flaticon-wireless: "\f10d";
+    $font-Flaticon-camera-shutter: "\f10e";
+    $font-Flaticon-video-camera: "\f10f";
+    $font-Flaticon-4-3: "\f110";
+    $font-Flaticon-auto: "\f111";
