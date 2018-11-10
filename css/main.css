@@ -1098,7 +1098,7 @@ img.hover-shadow {
     float: none;
     display: flex;
     align-self: flex-start;
-    margin: 10px; }
+    margin: auto 0; }
     .header-site .logo img {
       width: 100%;
       height: auto; }
@@ -1160,6 +1160,16 @@ img.hover-shadow {
       line-height: 18px; }
     .reviews .slideshow-container .reviews__item .reviews__name {
       font-size: 15px; }
+  .modal {
+    padding: 0; }
+    .modal .modal-content {
+      width: 100%;
+      height: 100%; }
+      .modal .modal-content .myImages {
+        margin-top: 33vh; }
+      .modal .modal-content img {
+        width: 80vw;
+        height: auto; }
   .wrapper {
     flex-wrap: wrap;
     padding: 0px; }
