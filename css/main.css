@@ -1012,7 +1012,7 @@ img.hover-shadow {
     width: 100%; } }
 
 @media screen and (min-width: 425px) {
-  .header-site .menu .menu-nav {
+  .menu-nav .show {
     width: 50%; } }
 
 @media screen and (max-width: 768px) {
@@ -1041,11 +1041,14 @@ img.hover-shadow {
       top: 0;
       right: 0; }
       .menu-btn.close .btn-line:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 5px); }
+        transform: rotate(45deg) translate(5px, 5px);
+        background-color: white; }
       .menu-btn.close .btn-line:nth-child(2) {
-        opacity: 0; }
+        opacity: 0;
+        background-color: white; }
       .menu-btn.close .btn-line:nth-child(3) {
-        transform: rotate(-45deg) translate(7px, -6px); }
+        transform: rotate(-45deg) translate(7px, -6px);
+        background-color: white; }
   .menu {
     z-index: 2;
     position: fixed;
@@ -1069,7 +1072,7 @@ img.hover-shadow {
     .menu-nav {
       margin: 0;
       padding: 0;
-      background: #67577b;
+      background: black;
       list-style: none; }
       .menu-nav.show {
         transform: translate3d(0, 0, 0); }
