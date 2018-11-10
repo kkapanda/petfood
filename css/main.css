@@ -1106,13 +1106,15 @@ img.hover-shadow {
     display: flex;
     float: none;
     align-self: flex-end;
-    padding: 12px 0; }
+    padding: 0;
+    margin: auto 0; }
     .header-site .shopping-carti {
       padding-right: 0; }
     .header-site .shopping-cart .cart-text {
       display: none; }
     .header-site .shopping-cart .shopping-cart_icon {
-      right: -5px; }
+      right: -5px;
+      top: 3px; }
   .item-product {
     flex-wrap: wrap;
     padding-bottom: 0px;
